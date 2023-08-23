@@ -1,0 +1,21 @@
+{% extends 'base.html.j2' %}
+{% block content %}
+
+<div class="prose p-10 pl-0">
+    <h1 class="prose:h1">Hello, it's Litestar with Tailwind and DaisyUI</h1>
+</div>
+
+<input type="range" min="0" max="100" value="40" class="range range-secondary my-10 w-[50%]" />
+
+<div class="card w-96 bg-base-100 shadow-xl">
+  <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+  <div class="card-body">
+    <h2 class="card-title">Shoes!</h2>
+    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <div class="card-actions justify-end">
+      <button class="btn btn-primary">Buy Now</button>
+    </div>
+  </div>
+</div>
+
+{% endblock%}

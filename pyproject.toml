@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "litestar-tw-dui"
+version = "0.1.0"
+description = ""
+authors = ["Railay"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "litestar_tw_dui"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+litestar = {extras = ["standard"], version = "^2.0.1"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
